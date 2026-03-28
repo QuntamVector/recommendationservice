@@ -9,7 +9,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/QuntamVector/recommendationservice.git, branch: 'main'
+                git url: 'https://github.com/QuntamVector/recommendationservice.git', branch: 'main'
             }
         }
 
